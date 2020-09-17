@@ -1,0 +1,597 @@
+/* For mobile phones: */
+/* Responsive styling */
+@media screen and (max-width: 992px) {
+  .formRes button {
+    margin-bottom: 20px;
+    margin-left: 75px;
+    width: 50%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: peru;
+    cursor: pointer;
+  }
+  .main .productInfo {
+    text-align: center;
+    font-size: 30px;
+    color: #455a64;
+    background-color: rosybrown;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+  }
+
+  .main #form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 50px;
+    background-color: bisque;
+    width: 350px;
+    padding: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .main .input1 {
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: 3px solid #5c5c5c;
+  }
+
+  .main .imagestyle {
+    border: 3px solid #5c5c5c;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 10px;
+    padding-left: 20px;
+  }
+  .main .imagestyle h4 {
+    padding-left: 20px;
+    text-align: center;
+    color: #455a64;
+  }
+  .main .btn {
+    width: 350px;
+    height: 50px;
+    font-weight: 900;
+    border-radius: 20px;
+    background-color: rosybrown;
+    color: #455a64;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .main .message {
+    margin-top: 30px;
+    font-size: 30px;
+    padding-bottom: 40px;
+    width: 400px;
+    height: 200px;
+    background-color: antiquewhite;
+
+    color: #455a64;
+    text-align: center;
+  }
+
+  .main .message h4 {
+    background-color: rosybrown;
+    width: 300px;
+    height: 150px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .main .goto {
+    margin-top: 80px;
+    font-size: 40px;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 400px;
+    margin-bottom: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: bisque;
+  }
+
+  .indexBody {
+    margin: 0;
+  }
+
+  .indexBody .ulStyle {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #455a64;
+    width: 500px;
+    font-size: 10px;
+  }
+
+  .indexBody li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  li a:hover {
+    background-color: #303030;
+  }
+
+  .indexBody .ulStyle {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-size: 10px;
+  }
+
+  .li1 a {
+    color: beige;
+  }
+  .indexBody .li1 {
+    font-size: 10px;
+  }
+  .secondul {
+    float: right;
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+  }
+  .indexBody .container {
+    background-color: #98afc7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid #2b3856;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+  }
+  .container .grid-container img {
+    width: 130px;
+    height: 150px;
+  }
+
+  .column .row {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    font-family: Georgia, serif;
+    font-size: 10px;
+  }
+
+  .column tr {
+    font-family: Georgia, serif;
+    font-size: 25px;
+  }
+  .column td {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .column td img {
+    padding-left: 0px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #2b3856;
+  }
+  .formstyle {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rosybrown;
+    width: 100%;
+    margin-left: 10px;
+  }
+  
+  .indexBody .thankpageStyle {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left:10px;
+  margin-right:0px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #00003f;
+  width: 90%;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  border: 10px inset #2196f3;
+}
+
+.indexBody .heading4 {
+  margin-left: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-family: Georgia, serif;
+}
+
+.indexBody h2 {
+  padding-top: 0px;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 20px;
+}
+.indexBody .table1 th {
+    text-align: left;
+  margin-top: 0px;
+  width: 180px;
+  font-size: 10px;
+  padding: 10px;
+}
+.indexBody .table1 td{
+  font-size: 10px;
+  margin-left: 0px;
+  padding: 0;
+
+}
+
+}
+
+/* Original page styling*/
+body {
+  background-color: #b0b0b0;
+}
+
+#form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 50px;
+  background-color: bisque;
+  width: 550px;
+  padding: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.input1 {
+  width: 450px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+
+  border: 3px solid #5c5c5c;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.productInfo {
+  text-align: center;
+  font-size: 50px;
+  color: #455a64;
+  background-color: rosybrown;
+  padding: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  width: 600px;
+}
+
+.btn {
+  width: 450px;
+  height: 50px;
+  font-weight: 900;
+  border-radius: 20px;
+  background-color: rosybrown;
+  color: #455a64;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.imagestyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid #5c5c5c;
+  font-size: 20px;
+  border-radius: 20px;
+
+  margin-top: 20px;
+}
+
+.message {
+  margin-top: 30px;
+  font-size: 30px;
+  padding-bottom: 40px;
+  width: 600px;
+  height: 150px;
+  background-color: antiquewhite;
+
+  color: #455a64;
+  text-align: center;
+}
+
+.message h4 {
+  background-color: rosybrown;
+  width: 400px;
+  height: 100px;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.goto {
+  margin-top: 80px;
+  font-size: 40px;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 600px;
+
+  height: 40px;
+  text-align: center;
+  background-color: bisque;
+}
+
+.gotopage:hover {
+  color: #455a64;
+}
+
+.goto a {
+  color: #455a64;
+  font-size: 30px;
+  font-weight: 900;
+  background-color: #cccc00;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.nameBody {
+  background-color: black;
+  color: bisque;
+  margin-top: 50px;
+}
+
+.headings {
+  text-align: center;
+  color: bisque;
+  background-color: black;
+  font-size: 40px;
+}
+.headings h2 {
+  text-align: center;
+  color: bisque;
+  background-color: black;
+  font-size: 40px;
+}
+
+.startbtn {
+  margin-bottom: 20px;
+  margin-left: 500px;
+  width: 250px;
+  height: 80px;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: peru;
+}
+
+.startbtn:hover {
+  cursor: pointer;
+}
+.indexBody {
+  margin: 0;
+}
+
+.ulStyle {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #455a64;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+li a:hover {
+  background-color: #303030;
+}
+
+.ulStyle {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  font-size: 20px;
+}
+
+.li1 a {
+  color: beige;
+}
+.secondul {
+  float: right;
+  display: flex;
+  list-style: none;
+}
+.container {
+  background-color: #98afc7;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.grid-container {
+  display: inline-block;
+  background-color: #98afc7;
+  padding: 20px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid #2b3856;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.grid-container img {
+  width: 400px;
+  height: 400px;
+}
+.grid-container button {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: lightslategrey;
+  cursor: pointer;
+}
+.row {
+  margin-top: 30px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+  font-family: Georgia, serif;
+}
+
+tr,
+td {
+  font-family: Georgia, serif;
+  padding-left: 250px;
+  font-size: 30px;
+}
+
+td img {
+  padding-left: 0px;
+  height: 300px;
+  width: 300px;
+  border: 3px solid #2b3856;
+}
+.formstyle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rosybrown;
+  width: 600px;
+}
+.heading3 {
+  margin-left: 40px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Georgia, serif;
+}
+.formstyle input {
+  margin-top: 20px;
+  width: 400px;
+  padding: 10px;
+  border: 3px solid #2b3856;
+  border-radius: 10px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.formstyle .btn {
+  background-color: #2b3856;
+  border: 3px solid #2b3856;
+  color: bisque;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.thankpageStyle {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #00003f;
+  width: 1000px;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  border: 25px inset #2196f3;
+}
+
+.heading4 {
+  margin-left: 250px;
+  text-align: center;
+  font-size: 40px;
+  font-family: Georgia, serif;
+}
+
+h2 {
+  padding-top: 0px;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 20px;
+}
+.table1 th {
+    text-align: left;
+  margin-top: 0px;
+  width: 300px;
+  font-size: 20px;
+  padding: 10px;
+}
+.table1 td{
+  font-size: 20px;
+
+}
+
