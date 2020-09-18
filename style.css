@@ -9,8 +9,8 @@
     font-size: 20px;
     font-weight: 500;
     border-radius: 20px;
-    border: 5px outset rgb(221, 31, 126);
-     background-color: rgb(194, 42, 214);
+    border: 5px outset rgb(31, 161, 221);
+     background-color: rgb(206, 96, 221);
     cursor: pointer;
   }
   .formRes button a{
@@ -20,14 +20,14 @@
 .main{
     margin: 0;
     padding: 0;
-     background: linear-gradient(60deg,#f0027f,#75489f);
+background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);
 }
   .main .productInfo {
     text-align: center;
     font-size: 30px;
-    color: #8228d6;
-     background-color: rgb(241, 117, 245);
-    border: 10px inset #9e5add;
+    color: white;
+     /* background-color: rgb(241, 117, 245); */
+    border: 5px outset rgb(31, 161, 221);
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -54,11 +54,11 @@
     margin-top: 20px;
     text-align: center;
 
-  border: 5px inset #9e5add;
+   border: 5px outset rgb(31, 161, 221);
   }
 
   .main .imagestyle {
-    border: 5px inset #9e5add;
+    border: 5px outset rgb(31, 161, 221);
     font-size: 15px;
     border-radius: 20px;
     margin-top: 20px;
@@ -76,9 +76,9 @@
     height: 50px;
     font-weight: 900;
     border-radius: 20px;
-     border: 5px inset #9e5add;
-     background-color:rgb(241, 117, 245);;
-    color: #8228d6;
+      border: 5px outset rgb(31, 161, 221);
+     /* background-color:rgb(241, 117, 245);; */
+    color: white;
     font-size: 20px;
     margin-top: 20px;
     cursor: pointer;
@@ -90,12 +90,12 @@
     width: 85%;
     height: 200px;
     background-color: antiquewhite;
-   color: #8228d6;
+   color: white;
     text-align: center;
   }
 
   .main .message h4 {
-    background-color: rgb(241, 117, 245);
+    background-color:  rgb(31, 161, 221);
     width: 70%;
     height: 150px;
     margin-left: 25px;
@@ -119,10 +119,10 @@
   }
   
 .main .goto a {
-  color: #455a64;
+  color: white;
   font-size: 15px;
   font-weight: 900;
-  background-color: #cccc00;
+  background-color:rgb(31, 161, 221);
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 10px;
@@ -206,7 +206,7 @@
   color: white;
 }
 .column{
-  background: linear-gradient(90deg,#f0027f,#75489f);
+   background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);
 }
   .container .grid-container img {
     width: 100%;
@@ -255,29 +255,29 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-   background-color:rgba(209, 35, 180, 0.774);;
-  border: 10px inset rgba(197, 25, 174, 0.733);
+   background-color: rgb(31, 161, 221);
+  border: 10px outset rgb(31, 161, 221);
     width: 90%;
   }
   .column .heading3 {
   margin-left: 30px;
   text-align: center;
   font-size: 20px;
-  color: #051c53;
+  color: white;
   font-family: Georgia, serif;
 }
 .column .formstyle input {
   margin-top: 20px;
   width: 80%;
   padding: 10px;
-  border: 3px solid #2b3856;
+  border: 5px inset rgb(41, 156, 202);
   border-radius: 10px;
   margin-left: 15px;
   font-size: 20px;
 }
 .column .formstyle .btn {
-  background-color: #a32092;
-  border: 3px solid #a32092;
+  /* background-color: #a32092; */
+  border: 10px inset rgb(41, 156, 202);
   color: bisque;
   border-radius: 20px;
   margin-bottom: 30px;
@@ -294,7 +294,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: rosybrown;
+   background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);
     width: 500px;
   }
   .indexBody .heading4 {
@@ -325,18 +325,18 @@
 /* body {
   background-color: #b0b0b0;
 } */
-.wave{
-    position: relative;
-    background: linear-gradient(90deg,#f0027f,#75489f);
-}
-
+/* .wave{
+   
+    background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);
+} */
 #form-box {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   line-height: 50px;
-  background-color: bisque;
+  background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);
+
   width: 550px;
   padding: 20px;
   margin-left: 250px;
@@ -352,7 +352,7 @@
   border-radius: 20px;
   margin-top: 20px;
   text-align: center;
-border: 10px inset #9e5add;
+border: 10px inset#36E3DC;
  
 }
 
@@ -362,15 +362,16 @@ border: 10px inset #9e5add;
   justify-content: space-around;
   align-items: center;
   
-    background: linear-gradient(60deg,#f0027f,#75489f);
+background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);
 }
 
 .productInfo {
   text-align: center;
   font-size: 50px;
-  color: #8228d6;
-  background-color: rgb(241, 117, 245);
-    border: 10px inset #9e5add;
+  color: white;
+ background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);
+
+   
   padding: 10px;
   margin-left: 300px;
   margin-right: 300px;
@@ -382,10 +383,13 @@ border: 10px inset #9e5add;
   height: 50px;
   font-weight: 900;
   border-radius: 20px;
-  background-color:rgb(241, 117, 245);;
-   color: #8228d6;
+background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);  color: white;
   font-size: 20px;
   margin-top: 20px;
+  cursor: pointer;
+}
+.btn:hover{
+    color: #32ade6;
 }
 
 .imagestyle {
@@ -393,7 +397,7 @@ border: 10px inset #9e5add;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  border: 3px solid #5c5c5c;
+  border: 3px solid #36E3DC;
   font-size: 20px;
   border-radius: 20px;
 
@@ -408,12 +412,12 @@ border: 10px inset #9e5add;
   height: 150px;
   background-color: antiquewhite;
 
-   color: #8228d6;
+   color: #36E3DC;
   text-align: center;
 }
 
 .message h4 {
-  background-color: rgb(241, 117, 245);
+  background-color: #36E3DC;
   width: 400px;
   height: 100px;
   margin-left: 100px;
@@ -439,14 +443,14 @@ border: 10px inset #9e5add;
 }
 
 .gotopage:hover {
-  color: #455a64;
+  color: #32ade6;
 }
 
 .goto a {
-  color: #455a64;
+  color: white;
   font-size: 30px;
   font-weight: 900;
-  background-color: #cccc00;
+  background-color: #007acc;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 10px;
@@ -456,36 +460,36 @@ border: 10px inset #9e5add;
 .nameBody {
     margin:0;
     padding: 0;
-     background: linear-gradient(90deg,#f0027f,#75489f);
+background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);
 }
 
 .headings {
     padding-top: 0;
   text-align: center;
-  color: bisque;
+  color:white;
   font-size: 40px;
 }
 .headings h2 {
   text-align: center;
-  color: bisque;
+  color: white;
   font-size: 40px;
 }
 
 .startbtn {
-  margin-bottom: 20px;
+  margin-bottom: 70px;
   margin-left: 500px;
   width: 250px;
   height: 80px;
   font-size: 30px;
   font-weight: 500;
   border-radius: 20px;
-  
-  background-color: rgb(194, 42, 214);
+  border: 5px inset#1D49E5;
+ background-image: linear-gradient(to right top, #2d9faa, #2cb0b8, #2dc1c5, #30d2d1, #36e3dc);
 }
 .startbtn a{
     text-decoration: none;
-    color:aliceblue;
-}
+    color: white;
+    }
 
 .startbtn:hover {
   cursor: pointer;
@@ -567,7 +571,7 @@ li a:hover {
   color: white;
 }
 .column{
-  background: linear-gradient(90deg,#f0027f,#75489f);
+background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);
 }
 .row {
    
@@ -591,7 +595,7 @@ td {
   font-family: Georgia, serif;
   padding-left: 150px;
   font-size: 20px;
-  color: #051c53;
+  color: white;
 }
 
 td img {
@@ -607,15 +611,15 @@ td img {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  background-color:rgba(209, 35, 180, 0.774);;
-  border: 10px inset rgba(197, 25, 174, 0.733);
+  background-image: linear-gradient(to right bottom, #4f5ce3, #007af1, #0093f4, #00a8ef, #00bae6, #00c4e3, #00cddd, #1fd5d5, #16dad4, #10ded2, #12e3cf, #1be7cc);
+  border: 10px inset rgb(41, 156, 202);
   width: 600px;
 }
 .heading3 {
   margin-left: 40px;
   text-align: center;
   font-size: 25px;
-  color: #051c53;
+  color: white;
   font-family: Georgia, serif;
 }
 .formstyle input {
